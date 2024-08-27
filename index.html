@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>jogaço</title>
+
+    <style>
+      *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        
+      }
+     .content{
+         color: rgb(9, 14, 17);
+         justify-content: center;
+         display: flex;
+         flex-direction: column;
+         height: 400px;
+         width:700px;
+         font-size: 9px;
+         gap: 5px;
+        border-radius: 3px;
+         align-items: center;
+         background-color: #fff;
+        }     
+        
+        body{
+            height: 100vh;
+            background-color: rgb(110, 119, 105);
+           justify-content: center;
+           align-items: center;
+           display: flex;
+     }
+      #bet{
+        background-color: #c9c9c9;
+        border: none;
+        border-radius: 33px;
+        padding: 8px;
+      }
+      .tum{
+        border-radius: 37px;
+        border:none;
+        padding: 10px;
+
+      }
+
+    </style>
+
+
+
+
+    
+
+     
+</head>
+<body>
+   <div class="content">
+    <h1>Descobrir o numero de 0 a 100</h1>
+    <input type="numeber" id="bet" placeholder="Digite um Numero">
+    <button onclick="verifyNumber()" class="tum">Enviar</button>
+   </div>
+</body>
+<script src="script.js"></script>
+</html>
