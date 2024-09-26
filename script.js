@@ -28,7 +28,7 @@ function verifyNumber(){
     else if(bet < numberToFind)
     {
        attemps++;
-       alert('🚨o nomero para ser encontrado é MAIOR');
+       alert('🚨o numero para ser encontrado é MAIOR');
     }
 else
 {
